@@ -7,6 +7,7 @@ firstName = fullName[:fullName.find(" ", 0)]
 lastName = fullName[fullName.find(" ", 0)+1:]
 
 print(firstName.title(), lastName.title()) #proper title print
+#use two print statements for this.
 print(firstName[0:1].lower() + firstName[1:].upper() +\ 
 ", " + lastName[0:1].lower() + lastName[1:].upper()) #flipped title cases print
 print()
